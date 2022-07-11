@@ -1,8 +1,22 @@
 import React from 'react';
 import ItemCount from './ItemCount';
+import ItemList from './ItemList';
+import products from '../../products.json';
 import swal from 'sweetalert';
+import { useEffect } from 'react';
 
 const ItemListContainer = ({greeting}) => {
+
+	// Muestro los items que hay en ItemList despues de 2 segundos de carga
+	const [items, setItems] = React.useState([]);
+	useEffect(() => {
+		setTimeout(() => {
+			setItems(products);
+		}, 2000);
+	}
+	, []);
+
+
 	return (
 		<div>
 			<h2 className='text-center fs-4'>{greeting}</h2>
@@ -18,6 +32,7 @@ const ItemListContainer = ({greeting}) => {
 					});
 				}}
 			/>
+			<ItemList items={items} />
 		</div>
 	);
 };
