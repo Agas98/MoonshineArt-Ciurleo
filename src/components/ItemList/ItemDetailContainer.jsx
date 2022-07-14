@@ -1,7 +1,7 @@
 import React from 'react'
 import ItemDetail from './ItemDetail';
 
-import productodetalle from '../../productdetalle.json';
+import producto from '../../products.json';
 import {useEffect} from 'react';
 
 const ItemDetailContainer = ({greeting}) => {
@@ -10,7 +10,7 @@ const ItemDetailContainer = ({greeting}) => {
     let afterPromises = true;
     setTimeout(() => {
       if (afterPromises) {
-        resolve(productodetalle);
+        resolve(producto);
       } else {
         reject('Error');
       }
@@ -38,7 +38,7 @@ const ItemDetailContainer = ({greeting}) => {
 
   return (
     <div>
-      <h3 className='text-center fs-4 my-4'>{greeting}:</h3>
+      <h3 className='text-center fs-4 my-4'>{greeting}</h3>
 
       {loading ? (
         <h3 className='text-center fs-3 text-info'>
@@ -46,10 +46,10 @@ const ItemDetailContainer = ({greeting}) => {
         </h3>
 
       ) : (
-        <ItemDetail item={item} />
+        <ItemDetail item={item[0]} />
       )}
     </div>
-  )
+  );
 }
 
 export default ItemDetailContainer

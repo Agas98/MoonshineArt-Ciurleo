@@ -1,110 +1,114 @@
 [
     {
         "id": 1,
-        "title": "Colgante 1",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "colgantes",
-        "image": "https://i.ibb.co/GkP7ch0/colgante1.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
+        "title": "Gargantilla de la noche",
+        "price": 2500,
+        "description": "Gargantilla en alpaca y labradorita azul",
+        "category": "Gargantillas",
+        "image": "https://i.ibb.co/wdftZV5/gargantilla-labradorita.jpg"
     },
     {
         "id": 2,
-        "title": "Colgante 2",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "colgantes",
-        "image": "https://i.ibb.co/RSYVTyw/colgante2.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
+        "title": "Amuleto Deimos",
+        "price": 6500,
+        "description": "Trabajado en alpaca con escolecita blanca y labradorita. Gargantilla de acero quirurgico regulable",
+        "category": "Amuletos",
+        "image": "https://i.ibb.co/dfMbbZM/amuleto-deimos.jpg"
     },
     {
         "id": 3,
-        "title": "Colgante 3",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "colgantes",
-        "image": "https://i.ibb.co/nPw1bRR/colgante3.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
+        "title": "Aros Saura",
+        "price": 2000,
+        "description": "Trabajados en alpaca con pasante de acero quirurgico",
+        "category": "Aros",
+        "image": "https://i.ibb.co/BPz8kVw/aro-saura.jpg"
     },
     {
         "id": 4,
-        "title": "Aro 1",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "aros",
-        "image": "https://i.ibb.co/60B2bk7/aro1.jpg",
-        "rating": {
-            "rate": 2.1,
-            "count": 430
-        }
+        "title": "Aros Rania",
+        "price": 1500,
+        "description": "Trabajados en alpaca con pasante de acero quirurgico",
+        "category": "Aros",
+        "image": "https://i.ibb.co/SmSw76q/aro-rania.jpg"
     },
     {
         "id": 5,
-        "title": "Anillo 1",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "anillos",
-        "image": "https://i.ibb.co/yXcpg0N/anillo.jpg",
-        "rating": {
-            "rate": 4.6,
-            "count": 400
-        }
+        "title": "Aros Naya",
+        "price": 1200,
+        "description": "Trabajados en alpaca con pasante de acero quirurgico",
+        "category": "Aros",
+        "image": "https://i.ibb.co/Rvdw31X/aro-naya.jpg"
     },
     {
         "id": 6,
-        "title": "Aro 2",
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-        "category": "aros",
-        "image": "https://i.ibb.co/TwPQR7T/aro2.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 70
-        }
+        "title": "Aros Naisha",
+        "price": 1200,
+        "description": "Trabajados en acero quirurgico",
+        "category": "Aros",
+        "image": "https://i.ibb.co/DMfxKPF/aro-naisha.jpg"
     },
     {
         "id": 7,
-        "title": "Colgante 4",
-        "price": 9.99,
-        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-        "category": "colgantes",
-        "image": "https://i.ibb.co/ZG1Fpkv/colgante4.jpg",
-        "rating": {
-            "rate": 3,
-            "count": 400
-        }
+        "title": "Aros Bela",
+        "price": 600,
+        "description": "Trabajados en alpaca con pasante de acero quirurgico",
+        "category": "Aros",
+        "image": "https://i.ibb.co/HhJ6wk9/aro-bela.jpg"
     },
     {
         "id": 8,
-        "title": "Aro 3",
-        "price": 10.99,
-        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-        "category": "aros",
-        "image": "https://i.ibb.co/QbRVybn/aro3.jpg",
-        "rating": {
-            "rate": 1.9,
-            "count": 100
-        }
+        "title": "Aros Anjali",
+        "price": 700,
+        "description": "Aros trabajados en bronce con cuarzo rosa",
+        "category": "Aros",
+        "image": "https://i.ibb.co/wd1PBQt/aro-anjali.jpg"
     },
     {
         "id": 9,
-        "title": "Colgante 5",
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-        "category": "colgantes",
-        "image": "https://i.ibb.co/1TW4jYs/colgante5.jpg",
-        "rating": {
-            "rate": 3.3,
-            "count": 203
-        }
+        "title": "Aros Alisha",
+        "price": 700,
+        "description": "Trabajados en alpaca con ojo de tigre",
+        "category": "Aros",
+        "image": "https://i.ibb.co/myyr2J3/aro-alisha.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Aros Alisha XS",
+        "price": 400,
+        "description": "Trabajados en bronce y cuarzo azul",
+        "category": "Aros",
+        "image": "https://i.ibb.co/Cm6XTcL/aro-alisha-XS.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Anillo Deimos",
+        "price": 1500,
+        "description": "Anillo en bronce y cuarzo blanco",
+        "category": "Anillos",
+        "image": "https://i.ibb.co/jJS68NJ/anillo-bronce.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Anillo Biomecanico",
+        "price": 1500,
+        "description": "Trabajado en cobre y agata",
+        "category": "Anillos",
+        "image": "https://i.ibb.co/MVv37c8/anillo-biomecanico.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Amuleto Arundhati",
+        "price": 4500,
+        "description": "Amuleto en alpaca y labradorita",
+        "category": "Amuletos",
+        "image": "https://i.ibb.co/0cJW1Zk/amuleto-labradorita.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Amuleto Chandra",
+        "price": 4500,
+        "description": "Amuleto en alpaca con piedra luna y labradorita",
+        "category": "Amuletos",
+        "image": "https://i.ibb.co/4MP9TV5/amuleto-piedraluna.jpg"
     }
 ]
