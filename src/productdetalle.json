@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Aros Anjali",
+        "price": 2500,
+        "description": "Aros trabajados en bronce con cuarzo rosa",
+        "category": "Aros",
+        "image": "https://i.ibb.co/GkP7ch0/colgante1.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    }
+]
