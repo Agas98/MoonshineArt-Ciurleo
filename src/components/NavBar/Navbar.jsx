@@ -24,16 +24,16 @@ export function Navbar() {
 				>
 					<ul className='navbar-nav'>
 						<li className='nav-item'>
-							<Link className='nav-link' to='/aros'> Aros </Link>
+							<Link className='nav-link' to='/categoria/aros'> Aros </Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/amuletos'> Amuletos </Link>
+						<Link className='nav-link' to='/categoria/amuletos'> Amuletos </Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/anillos'> Anillos </Link>
+						<Link className='nav-link' to='/categoria/anillos'> Anillos </Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/gargantillas'> Gargantillas </Link>
+						<Link className='nav-link' to='/categoria/gargantillas'> Gargantillas </Link>
 						</li>
 					</ul>
 					<CartWidget />

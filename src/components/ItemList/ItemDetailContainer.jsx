@@ -14,7 +14,7 @@ const ItemDetailContainer = ({greeting}) => {
       } else {
         reject('Error');
       }
-    }, 2000);
+    }, 1000);
   });
 
   const [item, setItem] = React.useState({});
