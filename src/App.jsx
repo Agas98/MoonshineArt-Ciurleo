@@ -8,13 +8,6 @@ import ItemListContainer from './components/ItemList/ItemListContainer';
 
 export default function App() {
 	return (
-		<div className='root' id='app'>
-			<Navbar />
 			<ItemListContainer />
-			<main>
-				<Outlet />
-			</main>
-			<Footer />
-		</div>
 	);
 }

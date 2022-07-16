@@ -8,7 +8,7 @@ const amuletos = () => {
 	);
 	console.log(productos);
 	return (
-		<div>
+		<div className='my-20'>
 			<h1 className='text-center text-blue-600'>Amuletos</h1>
 			<div className='d-flex flex-row justify-content-around flex-wrap'>
 				{productos.map((producto) => (
