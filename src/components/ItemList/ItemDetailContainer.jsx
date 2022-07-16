@@ -46,7 +46,7 @@ const ItemDetailContainer = ({greeting}) => {
         </h3>
 
       ) : (
-        <ItemDetail item={item[0]} />
+        <ItemDetail item={item} />
       )}
     </div>
   );

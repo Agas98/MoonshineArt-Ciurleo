@@ -9,7 +9,7 @@ const Aros = () => {
 
 	return (
 		<div>
-			<h1 className='text-center text-blue-900'>Aros</h1>
+			<h1 className='text-center text-blue-600'>Aros</h1>
 			<div className='d-flex flex-row justify-content-around flex-wrap'>
 				{productos.map((producto) => (
 					<Item {...producto} />

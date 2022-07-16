@@ -6,7 +6,10 @@ export function Navbar() {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
 			<div className='container-fluid'>
-			<Link className='navbar-brand' to='/'> M0ONSHINE ART </Link>
+				<Link className='navbar-brand' to='/'>
+					{' '}
+					M0ONSHINE ART{' '}
+				</Link>
 				<button
 					className='navbar-toggler'
 					type='button'
@@ -24,16 +27,28 @@ export function Navbar() {
 				>
 					<ul className='navbar-nav'>
 						<li className='nav-item'>
-							<Link className='nav-link' to='/categoria/aros'> Aros </Link>
+							<Link className='nav-link' to='aros'>
+								{' '}
+								Aros{' '}
+							</Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/categoria/amuletos'> Amuletos </Link>
+							<Link className='nav-link' to='amuletos'>
+								{' '}
+								Amuletos{' '}
+							</Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/categoria/anillos'> Anillos </Link>
+							<Link className='nav-link' to='anillos'>
+								{' '}
+								Anillos{' '}
+							</Link>
 						</li>
 						<li className='nav-item'>
-						<Link className='nav-link' to='/categoria/gargantillas'> Gargantillas </Link>
+							<Link className='nav-link' to='gargantillas'>
+								{' '}
+								Gargantillas{' '}
+							</Link>
 						</li>
 					</ul>
 					<CartWidget />
