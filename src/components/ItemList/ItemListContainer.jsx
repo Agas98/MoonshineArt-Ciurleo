@@ -34,7 +34,7 @@ const ItemListContainer = ({greeting}) => {
 	}, []);
 
 	return (
-		<div>
+		<div className='m-20' id='itemList'>
 			<h2 className='text-center fs-4'>{greeting}</h2>
 
 			{loading ? (

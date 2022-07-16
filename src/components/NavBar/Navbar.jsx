@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export function Navbar() {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+		<nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
 			<div className='container-fluid'>
 				<Link className='navbar-brand' to='/'>
 					{' '}
@@ -28,8 +28,8 @@ export function Navbar() {
 					<ul className='navbar-nav'>
 						<li className='nav-item'>
 							<Link className='nav-link' to='aros'>
-								{' '}
-								Aros{' '}
+								
+								Aros
 							</Link>
 						</li>
 						<li className='nav-item'>
