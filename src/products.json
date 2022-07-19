@@ -5,7 +5,8 @@
         "price": 2500,
         "description": "Gargantilla en alpaca y labradorita azul",
         "category": "Gargantillas",
-        "image": "https://i.ibb.co/wdftZV5/gargantilla-labradorita.jpg"
+        "image": "https://i.ibb.co/wdftZV5/gargantilla-labradorita.jpg",
+        "stock": 10
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "price": 6500,
         "description": "Trabajado en alpaca con escolecita blanca y labradorita. Gargantilla de acero quirurgico regulable",
         "category": "Amuletos",
-        "image": "https://i.ibb.co/dfMbbZM/amuleto-deimos.jpg"
+        "image": "https://i.ibb.co/dfMbbZM/amuleto-deimos.jpg",
+        "stock": 6
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "price": 2000,
         "description": "Trabajados en alpaca con pasante de acero quirurgico",
         "category": "Aros",
-        "image": "https://i.ibb.co/BPz8kVw/aro-saura.jpg"
+        "image": "https://i.ibb.co/BPz8kVw/aro-saura.jpg",
+        "stock": 10
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "price": 1500,
         "description": "Trabajados en alpaca con pasante de acero quirurgico",
         "category": "Aros",
-        "image": "https://i.ibb.co/SmSw76q/aro-rania.jpg"
+        "image": "https://i.ibb.co/SmSw76q/aro-rania.jpg",
+        "stock": 10
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "price": 1200,
         "description": "Trabajados en alpaca con pasante de acero quirurgico",
         "category": "Aros",
-        "image": "https://i.ibb.co/Rvdw31X/aro-naya.jpg"
+        "image": "https://i.ibb.co/Rvdw31X/aro-naya.jpg",
+        "stock": 10
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "price": 1200,
         "description": "Trabajados en acero quirurgico",
         "category": "Aros",
-        "image": "https://i.ibb.co/DMfxKPF/aro-naisha.jpg"
+        "image": "https://i.ibb.co/DMfxKPF/aro-naisha.jpg",
+        "stock": 10
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "price": 600,
         "description": "Trabajados en alpaca con pasante de acero quirurgico",
         "category": "Aros",
-        "image": "https://i.ibb.co/HhJ6wk9/aro-bela.jpg"
+        "image": "https://i.ibb.co/HhJ6wk9/aro-bela.jpg",
+        "stock": 10
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "price": 700,
         "description": "Aros trabajados en bronce con cuarzo rosa",
         "category": "Aros",
-        "image": "https://i.ibb.co/wd1PBQt/aro-anjali.jpg"
+        "image": "https://i.ibb.co/wd1PBQt/aro-anjali.jpg",
+        "stock": 10
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "price": 700,
         "description": "Trabajados en alpaca con ojo de tigre",
         "category": "Aros",
-        "image": "https://i.ibb.co/myyr2J3/aro-alisha.jpg"
+        "image": "https://i.ibb.co/myyr2J3/aro-alisha.jpg",
+        "stock": 10
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "price": 400,
         "description": "Trabajados en bronce y cuarzo azul",
         "category": "Aros",
-        "image": "https://i.ibb.co/Cm6XTcL/aro-alisha-XS.jpg"
+        "image": "https://i.ibb.co/Cm6XTcL/aro-alisha-XS.jpg",
+        "stock": 10
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "price": 1500,
         "description": "Anillo en bronce y cuarzo blanco",
         "category": "Anillos",
-        "image": "https://i.ibb.co/jJS68NJ/anillo-bronce.jpg"
+        "image": "https://i.ibb.co/jJS68NJ/anillo-bronce.jpg",
+        "stock": 10
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "price": 1500,
         "description": "Trabajado en cobre y agata",
         "category": "Anillos",
-        "image": "https://i.ibb.co/MVv37c8/anillo-biomecanico.jpg"
+        "image": "https://i.ibb.co/MVv37c8/anillo-biomecanico.jpg",
+        "stock": 10
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "price": 4500,
         "description": "Amuleto en alpaca y labradorita",
         "category": "Amuletos",
-        "image": "https://i.ibb.co/0cJW1Zk/amuleto-labradorita.jpg"
+        "image": "https://i.ibb.co/0cJW1Zk/amuleto-labradorita.jpg",
+        "stock": 10
     },
     {
         "id": 14,
@@ -109,6 +122,7 @@
         "price": 4500,
         "description": "Amuleto en alpaca con piedra luna y labradorita",
         "category": "Amuletos",
-        "image": "https://i.ibb.co/4MP9TV5/amuleto-piedraluna.jpg"
+        "image": "https://i.ibb.co/4MP9TV5/amuleto-piedraluna.jpg",
+        "stock": 10
     }
 ]

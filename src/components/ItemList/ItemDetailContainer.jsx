@@ -3,6 +3,7 @@ import ItemDetail from './ItemDetail';
 
 import producto from '../../products.json';
 import {useEffect} from 'react';
+import swal from 'sweetalert';
 
 const ItemDetailContainer = ({greeting}) => {
 	// muestro el item despues de 2 segundos de carga
@@ -33,6 +34,23 @@ const ItemDetailContainer = ({greeting}) => {
 			});
 	}, []);
 
+	function onAdd(count) {
+		if(count > 1) {
+		swal({
+			title: 'Producto agregado al carrito',
+			text: `Agregaste ${count} unidades`,
+			icon: 'success',
+			button: 'Continuar comprando',
+		});
+	}else{
+		swal({
+			title: 'Producto agregado al carrito',
+			text: `Agregaste 1 unidad`,
+			icon: 'success',
+			button: 'Continuar comprando',
+		});
+	}
+	}
 	return (
 		<div>
 			<h3 className='text-center fs-4 my-4'>{greeting}</h3>
@@ -42,7 +60,7 @@ const ItemDetailContainer = ({greeting}) => {
 					Cargando articulo...
 				</h3>
 			) : (
-				<ItemDetail item={item} />
+				<ItemDetail item={item} initial={1} onAdd={onAdd}/>
 			)}
 		</div>
 	);
