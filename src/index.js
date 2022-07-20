@@ -10,6 +10,7 @@ import ItemDetailContainer from './components/ItemList/ItemDetailContainer';
 import App from './App';
 import {Navbar} from './components/NavBar/Navbar';
 import Footer from './components/Footer/Footer';
+import Cart from './components/Cart/Cart';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -27,6 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 						<Route exact path='anillos' element={<Anillos />} />
 						<Route exact path='gargantillas' element={<Gargantillas />} />
 						<Route exact path='item/:id' element={<ItemDetailContainer greeting={`Detalle del producto`} />} />
+						<Route exact path='cart' element={<Cart/>}/>
 				</Routes>
 			<Footer />
 			</BrowserRouter>

@@ -13,7 +13,7 @@ const Item = ({id, title, price, image}) => {
 				/>
 			</div>
 			<div className='card-body d-flex flex-column justify-content-center align-items-center'>
-				<h5 className='card-title'>{title}</h5>
+				<h5 className='card-title text-blue-700'>{title}</h5>
 				<p className='card-text text-red-400 font-bold'>
 					Precio: ${price}
 				</p>

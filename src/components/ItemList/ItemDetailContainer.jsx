@@ -4,6 +4,7 @@ import ItemDetail from './ItemDetail';
 import producto from '../../products.json';
 import {useEffect} from 'react';
 import swal from 'sweetalert';
+import Cart from '../Cart/Cart';
 
 const ItemDetailContainer = ({greeting}) => {
 	// muestro el item despues de 2 segundos de carga
@@ -40,16 +41,29 @@ const ItemDetailContainer = ({greeting}) => {
 			title: 'Producto agregado al carrito',
 			text: `Agregaste ${count} unidades`,
 			icon: 'success',
-			button: 'Continuar comprando',
-		});
+			buttons: ['Seguir comprando', 'Ver Carrito'],
+        }).then(function (VerCarrito) {
+            if (VerCarrito) {
+				window.location.href = '/cart';
+            }else{
+				window.location.href = '/';
+			}
+        });
 	}else{
 		swal({
 			title: 'Producto agregado al carrito',
 			text: `Agregaste 1 unidad`,
 			icon: 'success',
-			button: 'Continuar comprando',
-		});
+			buttons: ['Seguir comprando', 'Ver Carrito'],
+        }).then(function (VerCarrito) {
+            if (VerCarrito) {
+				window.location.href = '/cart';
+            }else{
+				window.location.href = '/';
+			}
+        });
 	}
+	return <Cart />;
 	}
 	return (
 		<div>

@@ -10,13 +10,14 @@ const ItemDetail = ({item, initial, onAdd}) => {
 
 	// boton incrementar y decrementar
 	const incrementar = () => {
-		if (count < stock) { // Si el stock es mayor a la cantidad actual, se incrementa
+		if (count < stock) {
+			// Si el stock es mayor a la cantidad actual, se incrementa
 			setCount(count + 1);
 		}
-	}
+	};
 	const decrementar = () => {
 		setCount((valAnt) => (valAnt > 1 ? count - 1 : count));
-	}
+	};
 
 	return (
 		<div className='card m-2 w-84 d-flex flex-column justify-content-center align-items-center'>
@@ -31,7 +32,7 @@ const ItemDetail = ({item, initial, onAdd}) => {
 				</div>
 			</div>
 			<div className='card-body d-flex flex-column justify-content-center align-items-center'>
-			<h4 className='text-red-700'>En stock: {stock}</h4>
+				<h4 className='text-red-700'>En stock: {stock}</h4>
 				<label htmlFor=''>
 					Categoria: {item[`${id - 1}`].category}
 				</label>
@@ -42,20 +43,31 @@ const ItemDetail = ({item, initial, onAdd}) => {
 					Precio: ${item[`${id - 1}`].price}
 				</p>
 				<div className='d-flex flex-row'>
-				<button className='m-1 btn btn-outline-dark' onClick={decrementar}>-</button> 
-				<button className='m-1 btn btn-outline-dark' onClick={incrementar}>+</button>
-			</div>
-			<h2 className='text-red-900'>
-				{count > 0 ? `Cantidad: ${count}` : 'No hay stock'}
-            </h2>
+					<button
+						className='m-1 btn btn-outline-dark'
+						onClick={decrementar}
+					>
+						-
+					</button>
+					<button
+						className='m-1 btn btn-outline-dark'
+						onClick={incrementar}
+					>
+						+
+					</button>
+				</div>
+				<h2 className='text-red-900'>
+					{count > 0 ? `Cantidad: ${count}` : 'No hay stock'}
+				</h2>
 				<button
-				className='btn btn-primary btn-lg'
-				onClick={() => {
-					count <= stock && onAdd(count);
-				}}
-			>
-				Agregar al carrito
-			</button>
+					className='btn btn-primary btn-lg'
+					onClick={() => {
+						count <= stock && onAdd(count);
+					}}
+				>
+					Agregar al carrito
+				</button>
+				
 				<Link className='my-2 btn btn-info' to='/'>
 					Volver al carrito
 				</Link>
