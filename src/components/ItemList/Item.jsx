@@ -1,8 +1,8 @@
 import React from 'react';
-import ItemDetailContainer from './ItemDetailContainer';
 import {NavLink} from 'react-router-dom';
 
 const Item = ({id, title, price, image}) => {
+
 	return (
 		<div className='card m-2 w-72'>
 			<div className='p-2 w-64 h-64'>
@@ -19,6 +19,8 @@ const Item = ({id, title, price, image}) => {
 				</p>
 				<NavLink className='btn btn-primary' to={`/item/${id}`}>Ver detalle
 				</NavLink>
+
+
 			</div>
 		</div>
 	);

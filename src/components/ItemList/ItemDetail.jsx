@@ -1,13 +1,18 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Link, useParams} from 'react-router-dom';
+import CartContext from '../context/CartContext';
 import {useState} from 'react';
 
 const ItemDetail = ({item, initial, onAdd}) => {
+
+	const {addToCart, cart} = useContext(CartContext)
+
+	
 	let params = useParams();
 	let id = params.id;
 	const stock = item[`${id - 1}`].stock;
 	const [count, setCount] = useState(initial);
-
+	const {title, price} = item[`${id - 1}`];
 	// boton incrementar y decrementar
 	const incrementar = () => {
 		if (count < stock) {
@@ -59,14 +64,8 @@ const ItemDetail = ({item, initial, onAdd}) => {
 				<h2 className='text-red-900'>
 					{count > 0 ? `Cantidad: ${count}` : 'No hay stock'}
 				</h2>
-				<button
-					className='btn btn-primary btn-lg'
-					onClick={() => {
-						count <= stock && onAdd(count);
-					}}
-				>
-					Agregar al carrito
-				</button>
+				<button className="btn btn-primary btn-lg" onClick={() => addToCart({id, title, price}, cart)}>Agregar al Carrito</button>
+
 				
 				<Link className='my-2 btn btn-info' to='/'>
 					Volver al carrito
